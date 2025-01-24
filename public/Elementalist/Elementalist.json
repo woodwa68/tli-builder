@@ -1,0 +1,652 @@
+[
+    {
+        "id": 0,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage for Channeled Skills",
+        "position": {
+            "x": "64",
+            "y": "48"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 1,
+        "maxPoints": "3",
+        "name": "Channel03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel03_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% damage for Channeled Skills",
+        "position": {
+            "x": "192",
+            "y": "48"
+        },
+        "requirement": "192",
+        "dependencies": [
+            0
+        ],
+        "cost": 1
+    },
+    {
+        "id": 2,
+        "maxPoints": "3",
+        "name": "Crit04_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+4% Max Mana",
+        "position": {
+            "x": "320",
+            "y": "48"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 3,
+        "maxPoints": "3",
+        "name": "Es_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+8% Max Mana",
+        "position": {
+            "x": "448",
+            "y": "48"
+        },
+        "requirement": "448",
+        "dependencies": [
+            2
+        ],
+        "cost": 1
+    },
+    {
+        "id": 4,
+        "maxPoints": "4",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage<br />\n+9% Minion Damage",
+        "position": {
+            "x": "576",
+            "y": "48"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 5,
+        "maxPoints": "1",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+50% damage while standing still",
+        "position": {
+            "x": "704",
+            "y": "48"
+        },
+        "requirement": "704",
+        "dependencies": [
+            4
+        ],
+        "cost": 1
+    },
+    {
+        "id": 6,
+        "maxPoints": "4",
+        "name": "Flask02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack and Cast Speed for Channeled Skills",
+        "position": {
+            "x": "832",
+            "y": "48"
+        },
+        "requirement": "832",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 7,
+        "maxPoints": "2",
+        "name": "Channel02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% damage for every +1 additional Max Channeled Stack(s)",
+        "position": {
+            "x": "960",
+            "y": "48"
+        },
+        "requirement": "960",
+        "dependencies": [
+            6
+        ],
+        "cost": 1
+    },
+    {
+        "id": 8,
+        "maxPoints": "1",
+        "name": "Channel03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel03_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>Max Channeled Stacks +1",
+        "position": {
+            "x": "1088",
+            "y": "48"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            7
+        ],
+        "cost": 1
+    },
+    {
+        "id": 9,
+        "maxPoints": "3",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack and Cast Speed<br />\n+3% Minion Attack and Cast Speed",
+        "position": {
+            "x": "192",
+            "y": "144"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 10,
+        "maxPoints": "3",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Attack and Cast Speed<br />\n+6% Minion Attack and Cast Speed<br />\n-4 Skill Cost",
+        "position": {
+            "x": "320",
+            "y": "144"
+        },
+        "requirement": "320",
+        "dependencies": [
+            9
+        ],
+        "cost": 1
+    },
+    {
+        "id": 11,
+        "maxPoints": "3",
+        "name": "Area_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>4.5% Projectile Speed<br />\n+9% Minion Projectile Speed",
+        "position": {
+            "x": "448",
+            "y": "144"
+        },
+        "requirement": "448",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 12,
+        "maxPoints": "3",
+        "name": "Area_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+9% Projectile Speed<br />\n+18% Minion Projectile Speed",
+        "position": {
+            "x": "576",
+            "y": "144"
+        },
+        "requirement": "576",
+        "dependencies": [
+            11
+        ],
+        "cost": 1
+    },
+    {
+        "id": 13,
+        "maxPoints": "3",
+        "name": "Blind_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Blind_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+8 Intelligence",
+        "position": {
+            "x": "704",
+            "y": "144"
+        },
+        "requirement": "704",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 14,
+        "maxPoints": "3",
+        "name": "Flask02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+4% Intelligence",
+        "position": {
+            "x": "832",
+            "y": "144"
+        },
+        "requirement": "832",
+        "dependencies": [
+            13
+        ],
+        "cost": 1
+    },
+    {
+        "id": 15,
+        "maxPoints": "2",
+        "name": "Blind_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Blind_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+12% Attack and Cast Speed when channeled stacks have not reached cap",
+        "position": {
+            "x": "960",
+            "y": "144"
+        },
+        "requirement": "960",
+        "dependencies": [
+            6
+        ],
+        "cost": 1
+    },
+    {
+        "id": 16,
+        "maxPoints": "1",
+        "name": "Accuracy_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Accuracy_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+40% additional Beam Length",
+        "position": {
+            "x": "1088",
+            "y": "144"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            15
+        ],
+        "cost": 1
+    },
+    {
+        "id": 17,
+        "maxPoints": "3",
+        "name": "Es_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Energy Shield",
+        "position": {
+            "x": "64",
+            "y": "240"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 18,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Max Energy Shield",
+        "position": {
+            "x": "192",
+            "y": "240"
+        },
+        "requirement": "192",
+        "dependencies": [
+            17
+        ],
+        "cost": 1
+    },
+    {
+        "id": 19,
+        "maxPoints": "3",
+        "name": "Armor_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Life",
+        "position": {
+            "x": "320",
+            "y": "240"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 20,
+        "maxPoints": "3",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+5% Max Life<br />\n+3% Elemental Resistance",
+        "position": {
+            "x": "448",
+            "y": "240"
+        },
+        "requirement": "448",
+        "dependencies": [
+            19
+        ],
+        "cost": 1
+    },
+    {
+        "id": 21,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>1.5% Life Regain<br />\n1.5% Energy Shield Regain",
+        "position": {
+            "x": "576",
+            "y": "240"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 22,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+3% Life Regain<br />\n+3% Energy Shield Regain",
+        "position": {
+            "x": "704",
+            "y": "240"
+        },
+        "requirement": "704",
+        "dependencies": [
+            21
+        ],
+        "cost": 1
+    },
+    {
+        "id": 23,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Energy Shield",
+        "position": {
+            "x": "832",
+            "y": "240"
+        },
+        "requirement": "832",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 24,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+5% Max Energy Shield<br />\n+20% chance to avoid Elemental Ailments while Energy Shield is active",
+        "position": {
+            "x": "960",
+            "y": "240"
+        },
+        "requirement": "960",
+        "dependencies": [
+            23
+        ],
+        "cost": 1
+    },
+    {
+        "id": 25,
+        "maxPoints": "1",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1 Fire Skill Level",
+        "position": {
+            "x": "1088",
+            "y": "240"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            32
+        ],
+        "cost": 1
+    },
+    {
+        "id": 26,
+        "maxPoints": "3",
+        "name": "Crit01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+15% Critical Strike Rating<br />\n+15% Minion Critical Strike Rating",
+        "position": {
+            "x": "192",
+            "y": "336"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 27,
+        "maxPoints": "3",
+        "name": "Crit04_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+20% Critical Strike Rating<br />\n+20% Minion Critical Strike Rating<br />\n+5% Critical Strike Damage<br />\n+5% Minion Critical Strike Damage",
+        "position": {
+            "x": "320",
+            "y": "336"
+        },
+        "requirement": "320",
+        "dependencies": [
+            26
+        ],
+        "cost": 1
+    },
+    {
+        "id": 28,
+        "maxPoints": "3",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+6% chance to inflict Elemental Ailment<br />\n+10% Minion chance to inflict Elemental Ailment",
+        "position": {
+            "x": "448",
+            "y": "336"
+        },
+        "requirement": "448",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 29,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+12% chance to inflict Elemental Ailment<br />\n+15% Minion chance to inflict Elemental Ailment",
+        "position": {
+            "x": "576",
+            "y": "336"
+        },
+        "requirement": "576",
+        "dependencies": [
+            28
+        ],
+        "cost": 1
+    },
+    {
+        "id": 30,
+        "maxPoints": "3",
+        "name": "Crit01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+10% Focus Blessing Duration<br />\n+10% damage when Focus Blessing is active",
+        "position": {
+            "x": "704",
+            "y": "336"
+        },
+        "requirement": "704",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 31,
+        "maxPoints": "1",
+        "name": "Axe03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe03_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+8% chance to gain Tenacity Blessing and Agility Blessing when receiving Focus Blessing",
+        "position": {
+            "x": "832",
+            "y": "336"
+        },
+        "requirement": "832",
+        "dependencies": [
+            30
+        ],
+        "cost": 1
+    },
+    {
+        "id": 32,
+        "maxPoints": "4",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>Adds 2 - 2 Fire Damage to Attacks and Spells<br />\nAdds 1 - 3 Lightning Damage to Attacks and Spells<br />\nAdds 2 - 2 Cold Damage to Attacks and Spells",
+        "position": {
+            "x": "960",
+            "y": "336"
+        },
+        "requirement": "960",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 33,
+        "maxPoints": "1",
+        "name": "DmgLightning_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1 Lightning Skill Level",
+        "position": {
+            "x": "1088",
+            "y": "336"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            32
+        ],
+        "cost": 1
+    },
+    {
+        "id": 34,
+        "maxPoints": "3",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Elemental Damage<br />\n+9% Minion Elemental Damage",
+        "position": {
+            "x": "64",
+            "y": "432"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 35,
+        "maxPoints": "3",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% Elemental Damage<br />\n+18% Minion Elemental Damage",
+        "position": {
+            "x": "192",
+            "y": "432"
+        },
+        "requirement": "192",
+        "dependencies": [
+            34
+        ],
+        "cost": 1
+    },
+    {
+        "id": 36,
+        "maxPoints": "4",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>Damage Penetrates 1.5% Elemental Resistance<br />\nMinion Damage penetrates 1.5% Elemental Resistance",
+        "position": {
+            "x": "320",
+            "y": "432"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 37,
+        "maxPoints": "1",
+        "name": "Duration_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>Penetrates 4% of Elemental Resistance for each Elemental Ailment on enemy when dealing damage<br />\nMinion Damage penetrates 10% Elemental Resistance",
+        "position": {
+            "x": "448",
+            "y": "432"
+        },
+        "requirement": "448",
+        "dependencies": [
+            36
+        ],
+        "cost": 1
+    },
+    {
+        "id": 38,
+        "maxPoints": "3",
+        "name": "DmgEle_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+2% Elemental Resistance",
+        "position": {
+            "x": "576",
+            "y": "432"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 39,
+        "maxPoints": "1",
+        "name": "Defence03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence03_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>-8% additional Elemental Damage taken for every type of Elemental Damage recently received",
+        "position": {
+            "x": "704",
+            "y": "432"
+        },
+        "requirement": "704",
+        "dependencies": [
+            38
+        ],
+        "cost": 1
+    },
+    {
+        "id": 40,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage",
+        "position": {
+            "x": "832",
+            "y": "432"
+        },
+        "requirement": "832",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 41,
+        "maxPoints": "3",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% damage",
+        "position": {
+            "x": "960",
+            "y": "432"
+        },
+        "requirement": "960",
+        "dependencies": [
+            40
+        ],
+        "cost": 1
+    },
+    {
+        "id": 42,
+        "maxPoints": "1",
+        "name": "DmgCold_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgCold_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1 Cold Skill Level",
+        "position": {
+            "x": "1088",
+            "y": "432"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            32
+        ],
+        "cost": 1
+    }
+]

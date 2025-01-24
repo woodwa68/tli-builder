@@ -1,0 +1,604 @@
+[
+    {
+        "id": 0,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Physical Damage<br />\n+9% Physical Damage for Minions",
+        "position": {
+            "x": "64",
+            "y": "48"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 1,
+        "maxPoints": "3",
+        "name": "DmgPhys_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% Physical Damage<br />\n+18% Physical Damage for Minions",
+        "position": {
+            "x": "192",
+            "y": "48"
+        },
+        "requirement": "192",
+        "dependencies": [
+            0
+        ],
+        "cost": 1
+    },
+    {
+        "id": 2,
+        "maxPoints": "3",
+        "name": "Crit03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+8% Critical Strike Damage<br />\n+8% Minion Critical Strike Damage",
+        "position": {
+            "x": "320",
+            "y": "48"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 3,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+16% Critical Strike Damage<br />\n+16% Minion Critical Strike Damage",
+        "position": {
+            "x": "448",
+            "y": "48"
+        },
+        "requirement": "448",
+        "dependencies": [
+            2
+        ],
+        "cost": 1
+    },
+    {
+        "id": 4,
+        "maxPoints": "3",
+        "name": "DmgPhys_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Physical Damage<br />\n+9% Physical Damage for Minions",
+        "position": {
+            "x": "704",
+            "y": "48"
+        },
+        "requirement": "704",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 5,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+22% Physical Damage<br />\n-12% Elemental Damage<br />\n+22% Physical Damage for Minions",
+        "position": {
+            "x": "832",
+            "y": "48"
+        },
+        "requirement": "832",
+        "dependencies": [
+            4
+        ],
+        "cost": 1
+    },
+    {
+        "id": 6,
+        "maxPoints": "4",
+        "name": "Aura_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Physical Damage",
+        "position": {
+            "x": "960",
+            "y": "48"
+        },
+        "requirement": "960",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 7,
+        "maxPoints": "1",
+        "name": "DmgPhys_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1 Physical Skill Level<br />\nPhysical Damage can't be converted to other types of damage",
+        "position": {
+            "x": "1088",
+            "y": "48"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            6
+        ],
+        "cost": 1
+    },
+    {
+        "id": 8,
+        "maxPoints": "3",
+        "name": "Bleed_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+6% chance to inflict Trauma<br />\n+10% chance for Minions to inflict Trauma",
+        "position": {
+            "x": "192",
+            "y": "144"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 9,
+        "maxPoints": "3",
+        "name": "Bleed_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+12% chance to inflict Trauma<br />\n+15% Trauma Damage<br />\n+20% chance for Minions to inflict Trauma",
+        "position": {
+            "x": "320",
+            "y": "144"
+        },
+        "requirement": "320",
+        "dependencies": [
+            8
+        ],
+        "cost": 1
+    },
+    {
+        "id": 10,
+        "maxPoints": "3",
+        "name": "Armor_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+5% Armor<br />\n+5% Evasion",
+        "position": {
+            "x": "448",
+            "y": "144"
+        },
+        "requirement": "448",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 11,
+        "maxPoints": "3",
+        "name": "Defence03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence03_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+9% Armor<br />\n+9% Evasion<br />\n-4% additional Physical Damage taken",
+        "position": {
+            "x": "576",
+            "y": "144"
+        },
+        "requirement": "576",
+        "dependencies": [
+            10
+        ],
+        "cost": 1
+    },
+    {
+        "id": 12,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack and Cast Speed<br />\n+3% Minion Attack and Cast Speed",
+        "position": {
+            "x": "704",
+            "y": "144"
+        },
+        "requirement": "704",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 13,
+        "maxPoints": "3",
+        "name": "Aura_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+3% Armor DMG Mitigation Penetration<br />\n+3% Armor DMG Mitigation Penetration for Minions",
+        "position": {
+            "x": "832",
+            "y": "144"
+        },
+        "requirement": "832",
+        "dependencies": [
+            12
+        ],
+        "cost": 1
+    },
+    {
+        "id": 14,
+        "maxPoints": "4",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Trauma Damage<br />\nAdds 8 Base Trauma Damage",
+        "position": {
+            "x": "960",
+            "y": "144"
+        },
+        "requirement": "960",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 15,
+        "maxPoints": "1",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+30% Trauma Reaping Duration",
+        "position": {
+            "x": "1088",
+            "y": "144"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            14
+        ],
+        "cost": 1
+    },
+    {
+        "id": 16,
+        "maxPoints": "3",
+        "name": "Bow01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Life",
+        "position": {
+            "x": "64",
+            "y": "240"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 17,
+        "maxPoints": "3",
+        "name": "Flask02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+5% Max Life<br />\nRegenerates 0.6% Life per second",
+        "position": {
+            "x": "192",
+            "y": "240"
+        },
+        "requirement": "192",
+        "dependencies": [
+            16
+        ],
+        "cost": 1
+    },
+    {
+        "id": 18,
+        "maxPoints": "3",
+        "name": "Defence02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Energy Shield<br />\n1.5% Energy Shield Regain",
+        "position": {
+            "x": "320",
+            "y": "240"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 19,
+        "maxPoints": "3",
+        "name": "Es_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Max Energy Shield<br />\n+3% Energy Shield Regain",
+        "position": {
+            "x": "448",
+            "y": "240"
+        },
+        "requirement": "448",
+        "dependencies": [
+            18
+        ],
+        "cost": 1
+    },
+    {
+        "id": 20,
+        "maxPoints": "4",
+        "name": "Channel01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Max Life<br />\n1.5% Life Regain",
+        "position": {
+            "x": "576",
+            "y": "240"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 21,
+        "maxPoints": "1",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+12% Max Life<br />\n+4% Life Regain<br />\nMinions are immune to Physical Damage",
+        "position": {
+            "x": "704",
+            "y": "240"
+        },
+        "requirement": "704",
+        "dependencies": [
+            20
+        ],
+        "cost": 1
+    },
+    {
+        "id": 22,
+        "maxPoints": "4",
+        "name": "Channel01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+4% Fervor effect",
+        "position": {
+            "x": "832",
+            "y": "240"
+        },
+        "requirement": "832",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 23,
+        "maxPoints": "1",
+        "name": "Defence01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1% Movement Speed per 8 Fervor Rating",
+        "position": {
+            "x": "960",
+            "y": "240"
+        },
+        "requirement": "960",
+        "dependencies": [
+            22
+        ],
+        "cost": 1
+    },
+    {
+        "id": 24,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage for Triggered Skills",
+        "position": {
+            "x": "192",
+            "y": "336"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 25,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% damage for Triggered Skills",
+        "position": {
+            "x": "320",
+            "y": "336"
+        },
+        "requirement": "320",
+        "dependencies": [
+            24
+        ],
+        "cost": 1
+    },
+    {
+        "id": 26,
+        "maxPoints": "3",
+        "name": "Block_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Block_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+4% Attack Block Chance",
+        "position": {
+            "x": "448",
+            "y": "336"
+        },
+        "requirement": "448",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 27,
+        "maxPoints": "3",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Attack Block Chance<br />\n-4% additional Physical Damage taken",
+        "position": {
+            "x": "576",
+            "y": "336"
+        },
+        "requirement": "576",
+        "dependencies": [
+            26
+        ],
+        "cost": 1
+    },
+    {
+        "id": 28,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Attack and Cast Speed",
+        "position": {
+            "x": "704",
+            "y": "336"
+        },
+        "requirement": "704",
+        "dependencies": [
+            35
+        ],
+        "cost": 1
+    },
+    {
+        "id": 29,
+        "maxPoints": "4",
+        "name": "Cannon01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Cannon01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage",
+        "position": {
+            "x": "960",
+            "y": "336"
+        },
+        "requirement": "960",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 30,
+        "maxPoints": "1",
+        "name": "Bow01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+10% Sealed Mana Compensation",
+        "position": {
+            "x": "1088",
+            "y": "336"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            29
+        ],
+        "cost": 1
+    },
+    {
+        "id": 31,
+        "maxPoints": "3",
+        "name": "CastSpeed_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack and Cast Speed<br />\n+3% Minion Attack and Cast Speed",
+        "position": {
+            "x": "64",
+            "y": "432"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 32,
+        "maxPoints": "3",
+        "name": "CastSpeed_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Attack and Cast Speed<br />\n+6% Minion Attack and Cast Speed<br />\n-4 Skill Cost",
+        "position": {
+            "x": "192",
+            "y": "432"
+        },
+        "requirement": "192",
+        "dependencies": [
+            31
+        ],
+        "cost": 1
+    },
+    {
+        "id": 33,
+        "maxPoints": "3",
+        "name": "Crit02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+15% Critical Strike Rating<br />\n+15% Minion Critical Strike Rating",
+        "position": {
+            "x": "320",
+            "y": "432"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 34,
+        "maxPoints": "3",
+        "name": "Crit04_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+30% Critical Strike Rating<br />\n+30% Minion Critical Strike Rating",
+        "position": {
+            "x": "448",
+            "y": "432"
+        },
+        "requirement": "448",
+        "dependencies": [
+            33
+        ],
+        "cost": 1
+    },
+    {
+        "id": 35,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack and Cast Speed",
+        "position": {
+            "x": "576",
+            "y": "432"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 36,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+3% Cooldown Recovery Speed",
+        "position": {
+            "x": "704",
+            "y": "432"
+        },
+        "requirement": "704",
+        "dependencies": [
+            35
+        ],
+        "cost": 1
+    },
+    {
+        "id": 37,
+        "maxPoints": "4",
+        "name": "Area_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage for Triggered Skills",
+        "position": {
+            "x": "832",
+            "y": "432"
+        },
+        "requirement": "832",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 38,
+        "maxPoints": "2",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% damage for Triggered Skills",
+        "position": {
+            "x": "960",
+            "y": "432"
+        },
+        "requirement": "960",
+        "dependencies": [
+            37
+        ],
+        "cost": 1
+    },
+    {
+        "id": 39,
+        "maxPoints": "1",
+        "name": "Area_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+50% chance to Weaken nearby enemies when triggering any skill",
+        "position": {
+            "x": "1088",
+            "y": "432"
+        },
+        "requirement": "1088",
+        "dependencies": [
+            38
+        ],
+        "cost": 1
+    }
+]
