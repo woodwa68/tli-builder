@@ -19,6 +19,7 @@ const SkillTree = ({ tree, name, dpsDiff }: SkillTreeProps) => {
     const dispatch = useSkillTreeDispatch()
     const [diff, setDiff] = useState(null)
     const skillTree: any = state[name];
+    const isProd = process.env.NODE_ENV === 'production';
 
     const skills = tree;
     const nodeSize = isMobile ? 3.5 : 6.5;
@@ -98,7 +99,7 @@ const SkillTree = ({ tree, name, dpsDiff }: SkillTreeProps) => {
                                 onMouseOver={(e) => mouseOverFunc(e, el)}
                                 onClick={skillTree['skillPointsSpent'] > 1 ? () => setFirstTalent(el.name) : () => { }}
                                 className={"mainTalent " + (firstTalent === el.name ? 'selected' : '')}
-                                src={`/MainTalents/${el.imagePath}`} />
+                                src={`${isProd ? '/tli-builder' : ''}/MainTalents/${el.imagePath}`} />
 
                         )}
                     </div>
@@ -189,7 +190,7 @@ const SkillTree = ({ tree, name, dpsDiff }: SkillTreeProps) => {
                                         height: nodeSize + 'vh',
                                         width: nodeSize + 'vh',
                                         zIndex: -skill.id + 50,
-                                        backgroundImage: `url('/${name}/${skill.image.split('/').pop()}')`
+                                        backgroundImage: `url('/${isProd ? 'tli-builder/' : '' + name}/${skill.image.split('/').pop()}')`
                                     }}
                                     onMouseOver={() => { setDiff(dpsDiff(skill.tooltip)) }}
                                     onMouseLeave={() => setDiff(null)}
