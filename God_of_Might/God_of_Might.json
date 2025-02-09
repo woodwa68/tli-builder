@@ -1,0 +1,380 @@
+[
+    {
+        "id": 0,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+10% Attack Critical Strike Rating<br />\n+3% Critical Strike Damage",
+        "position": {
+            "x": "320",
+            "y": "48"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 1,
+        "maxPoints": "3",
+        "name": "Crit03_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+9% Projectile Speed<br />\n+25% Ranged Attack Critical Strike Rating",
+        "position": {
+            "x": "448",
+            "y": "48"
+        },
+        "requirement": "448",
+        "dependencies": [
+            0
+        ],
+        "cost": 1
+    },
+    {
+        "id": 2,
+        "maxPoints": "4",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Attack Damage<br />\n+2% Movement Speed",
+        "position": {
+            "x": "576",
+            "y": "48"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 3,
+        "maxPoints": "2",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% Attack Damage<br />\n+4% Movement Speed",
+        "position": {
+            "x": "704",
+            "y": "48"
+        },
+        "requirement": "704",
+        "dependencies": [
+            2
+        ],
+        "cost": 1
+    },
+    {
+        "id": 4,
+        "maxPoints": "1",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1 to Attack Skill Level",
+        "position": {
+            "x": "832",
+            "y": "48"
+        },
+        "requirement": "832",
+        "dependencies": [
+            3
+        ],
+        "cost": 1
+    },
+    {
+        "id": 5,
+        "maxPoints": "3",
+        "name": "Atk_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Attack Speed",
+        "position": {
+            "x": "192",
+            "y": "144"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 6,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+6% Attack Speed<br />\n-4 Attack Skill Cost",
+        "position": {
+            "x": "320",
+            "y": "144"
+        },
+        "requirement": "320",
+        "dependencies": [
+            5
+        ],
+        "cost": 1
+    },
+    {
+        "id": 7,
+        "maxPoints": "3",
+        "name": "Area_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+10% Skill Area<br />\n+10% Critical Strike Damage to Melee attacks",
+        "position": {
+            "x": "448",
+            "y": "144"
+        },
+        "requirement": "448",
+        "dependencies": [
+            0
+        ],
+        "cost": 1
+    },
+    {
+        "id": 8,
+        "maxPoints": "3",
+        "name": "Dagger01_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger01_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+2% Max Life<br />\n1.5% Life Regain",
+        "position": {
+            "x": "704",
+            "y": "144"
+        },
+        "requirement": "704",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 9,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+4% Max Life<br />\n+3% Life Regain",
+        "position": {
+            "x": "832",
+            "y": "144"
+        },
+        "requirement": "832",
+        "dependencies": [
+            8
+        ],
+        "cost": 1
+    },
+    {
+        "id": 10,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% damage",
+        "position": {
+            "x": "64",
+            "y": "240"
+        },
+        "requirement": "64",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 11,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+18% damage",
+        "position": {
+            "x": "192",
+            "y": "240"
+        },
+        "requirement": "192",
+        "dependencies": [
+            10
+        ],
+        "cost": 1
+    },
+    {
+        "id": 12,
+        "maxPoints": "3",
+        "name": "Armor_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+5% Armor<br />\n+2% Max Life",
+        "position": {
+            "x": "320",
+            "y": "240"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 13,
+        "maxPoints": "3",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+10% Armor<br />\n+4% Max Life",
+        "position": {
+            "x": "448",
+            "y": "240"
+        },
+        "requirement": "448",
+        "dependencies": [
+            12
+        ],
+        "cost": 1
+    },
+    {
+        "id": 14,
+        "maxPoints": "3",
+        "name": "Duration_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+10% Tenacity Blessing Duration<br />\n1.5% Elemental Resistance while Tenacity Blessing is active",
+        "position": {
+            "x": "576",
+            "y": "240"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 15,
+        "maxPoints": "1",
+        "name": "Armor_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+3% Life Regeneration Speed per stack of Tenacity Blessing owned<br />\n25 Life Regeneration per second per stack of Tenacity Blessing owned",
+        "position": {
+            "x": "704",
+            "y": "240"
+        },
+        "requirement": "704",
+        "dependencies": [
+            14
+        ],
+        "cost": 1
+    },
+    {
+        "id": 16,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+3% Cast Speed",
+        "position": {
+            "x": "192",
+            "y": "336"
+        },
+        "requirement": "192",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 17,
+        "maxPoints": "3",
+        "name": "Agi_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+5% Cast Speed<br />\n+5% Fire Skill Area",
+        "position": {
+            "x": "320",
+            "y": "336"
+        },
+        "requirement": "320",
+        "dependencies": [
+            16
+        ],
+        "cost": 1
+    },
+    {
+        "id": 18,
+        "maxPoints": "4",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+9% Fire Damage",
+        "position": {
+            "x": "576",
+            "y": "336"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 19,
+        "maxPoints": "2",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+5% Fire Resistance<br />\nConverts 50% Physical Damage to Fire Damage",
+        "position": {
+            "x": "704",
+            "y": "336"
+        },
+        "requirement": "704",
+        "dependencies": [
+            18
+        ],
+        "cost": 1
+    },
+    {
+        "id": 20,
+        "maxPoints": "1",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+12% additional Fire Damage dealt by the next Main Skill every 1 s",
+        "position": {
+            "x": "832",
+            "y": "336"
+        },
+        "requirement": "832",
+        "dependencies": [
+            19
+        ],
+        "cost": 1
+    },
+    {
+        "id": 21,
+        "maxPoints": "3",
+        "name": "DmgAll_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+8% Ignite damage<br />\n+6% chance to Ignite targets",
+        "position": {
+            "x": "320",
+            "y": "432"
+        },
+        "requirement": "320",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 22,
+        "maxPoints": "3",
+        "name": "DmgExtra_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "tooltip": "<strong>Medium Talent</strong><br/>+16% Ignite damage<br />\n+12% chance to Ignite targets",
+        "position": {
+            "x": "448",
+            "y": "432"
+        },
+        "requirement": "448",
+        "dependencies": [
+            21
+        ],
+        "cost": 1
+    },
+    {
+        "id": 23,
+        "maxPoints": "4",
+        "name": "Crossbow02_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp",
+        "tooltip": "<strong>Minor Talent</strong><br/>+8 Strength",
+        "position": {
+            "x": "576",
+            "y": "432"
+        },
+        "requirement": "576",
+        "dependencies": [],
+        "cost": 1
+    },
+    {
+        "id": 24,
+        "maxPoints": "1",
+        "name": "DmgFire_64.webp",
+        "image": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp",
+        "tooltip": "<strong>Legendary Medium Talent</strong><br/>+1% Fire Damage per 6 Strength",
+        "position": {
+            "x": "704",
+            "y": "432"
+        },
+        "requirement": "704",
+        "dependencies": [
+            23
+        ],
+        "cost": 1
+    }
+]
