@@ -1,8 +1,7 @@
-import type { NextConfig } from 'next';
 const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  output: "standalone",
+const nextConfig = {
+  output: "export",
   basePath: isProd ? '/tli-builder' : '',
   reactStrictMode: false,
   images: { unoptimized: true },

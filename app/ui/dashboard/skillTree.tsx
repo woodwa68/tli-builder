@@ -9,7 +9,8 @@ interface SkillTreeProps {
     dpsDiff: Function;
 }
 import { useSkillTreeDispatch, useSkillTreeState, } from '@/app/lib/Context'
-import { isMobile, parseData } from "@/app/lib/utils";
+import { parseData } from "@/app/lib/utils";
+import { isMobile } from "react-device-detect";
 
 const maxSkills = 25;
 

@@ -2,9 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import "./divinity.css";
 
 import { useSkillTreeDispatch } from "@/app/lib/Context";
-import { Affix_Data, God_Affiliation, God_Affixes, isMobile, parseData } from "@/app/lib/utils";
+import { isMobile } from "react-device-detect";
+
+import { Affix_Data, God_Affiliation, God_Affixes, parseData } from "@/app/lib/utils";
 import Script from "next/script";
-const initDragAndDrop = require("public/DragDropTouch.js"); // Adjust path as needed
 
 // Define the grid structure
 const GRID_TEMPLATE = [
@@ -103,6 +104,9 @@ const rotateShape = (shape: any[][]) => {
 };
 
 const Divinity = () => {
+    useEffect(() => {
+        require("public/DragDropTouch.js")
+    }, [])
 
     const dispatch = useSkillTreeDispatch()
     const [grid, setGrid] = useState<[string | null, any][][]>(
@@ -437,10 +441,10 @@ const Divinity = () => {
                                         }}
                                         onTouchStart={(e) => {
                                             setDraggingShape(shape);
-                                            document.body.style.overflow = "hidden";
+                                            // document.body.style.overflow = "hidden";
                                         }}
                                         onTouchEnd={(e) => {
-                                            document.body.style.overflow = "auto";
+                                            //document.body.style.overflow = "auto";
                                             setIsDragging(false)
                                         }}
 

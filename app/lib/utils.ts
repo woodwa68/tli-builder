@@ -35,7 +35,6 @@ import alch from "public/Alchemist/Alchemist.json";
 import skillData from 'public/SkillData.json'
 const skillNames = Object.keys(skillData);
 
-export const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 export { skillData, skillNames }
 type SkillTreeData = typeof gom; // Assume all trees follow the same structure as `gom`
