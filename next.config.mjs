@@ -3,6 +3,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   output: "export",
   basePath: isProd ? '/tli-builder' : '',
+  assetPrefix: isProd ? '/tli-builder' : '',
   reactStrictMode: false,
   images: { unoptimized: true, formats: ['image/webp'], },
   eslint: {
