@@ -11,7 +11,6 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import clsx from 'clsx';
 
 const trees = [
-
   { name: 'God_of_Might' },
   { name: 'God_of_War' },
   { name: 'The_Brave' },
@@ -25,7 +24,7 @@ const trees = [
   { name: 'Onslaughter' },
   { name: 'Bladerunner' },
   { name: 'Arcanist' },
-  { name: 'Roning' },
+  { name: 'Ronin' },
   { name: 'Psychic' },
   { name: 'Steel_Vanguard' },
   { name: 'God_of_Machines' },
@@ -39,7 +38,6 @@ const trees = [
 ]
 
 export default function NavLinks() {
-  const pathname = usePathname();
   const search = useSearchParams()
 
   return (
@@ -52,7 +50,7 @@ export default function NavLinks() {
             className={clsx(
               'flex h-[36px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3',
               {
-                'bg-sky-100 text-blue-600': !search.get('tree').indexOf(link.name),
+                'bg-sky-100 text-blue-600': search.get('tree')?.indexOf(link.name) !== -1,
               },
             )}
           >

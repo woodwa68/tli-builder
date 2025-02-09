@@ -1,0 +1,206 @@
+.divinity {
+    display: flex;
+    flex-direction: row;
+}
+
+.sizeWeb {
+    width: 4.5vw;
+    height: 4.5vw;
+}
+
+.sizeMobile {
+    width: 7.25vw;
+    height: 7.25vw;
+}
+
+.toolbar {
+    margin-right: 20px;
+}
+
+.shape {
+
+    background-color: #ffffff00;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+
+    background-color: #90caf9;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+}
+
+
+
+
+
+.grid-row {
+    display: grid;
+}
+
+
+
+.grid-cell {
+
+    background-color: #f4f4f4;
+    border: 0px solid #ccc;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    font-size: .75em;
+    padding: 0;
+}
+
+.grid-cell.valid {
+    background-color: #e8f5e9;
+    outline: 1px solid rgba(0, 0, 0, 0.171);
+
+}
+
+.grid-cell.invalid {
+    background-color: transparent;
+    border: 1px solid transparent;
+
+}
+
+.shape-cell {}
+
+.shape-cell.filled {
+
+    background-color: #90caf9;
+
+
+}
+
+.shape-cell-preview.filled {
+
+    background-color: #90caf9;
+}
+
+.shape-cell-preview.empty {
+
+    background-color: transparent;
+}
+
+.shape-cell.empty {
+
+    background-color: transparent;
+}
+
+.anchor-icon {
+
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    cursor: grab;
+    z-index: 34;
+    color: black;
+}
+
+.shape-preview {
+    display: grid;
+    gap: 0px;
+}
+
+
+
+.shape-row {
+    display: flex;
+}
+
+
+.L1,
+.tetris1,
+.s1 {
+    background-color: red !important;
+}
+
+.L2,
+.tetris2,
+.s2 {
+    background-color: rgb(47, 249, 215) !important;
+}
+
+.L3,
+.tetris3,
+.s3 {
+    background-color: rgb(204, 0, 255) !important;
+}
+
+.L4,
+.tetris4,
+.s4 {
+    background-color: rgb(255, 132, 0) !important;
+}
+
+.L5,
+.tetris5,
+.s5 {
+    background-color: rgb(69, 255, 134) !important;
+}
+
+.L6,
+.tetris6,
+.s6 {
+    background-color: rgb(95, 73, 255) !important;
+}
+
+.L7,
+.tetris7,
+.s7 {
+    background-color: rgb(255, 252, 84) !important;
+}
+
+
+div.grid>div:nth-child(5)>div:nth-child(2),
+div.grid>div:nth-child(6)>div:nth-child(3),
+div.grid>div:nth-child(1)>div:nth-child(3),
+div.grid>div:nth-child(2)>div:nth-child(2),
+div.grid>div:nth-child(3)>div:nth-child(1),
+div.grid>div:nth-child(4)>div:nth-child(1) {
+    border-left: 1px solid black;
+}
+
+div.grid>div:nth-child(5)>div:nth-child(5),
+div.grid>div:nth-child(6)>div:nth-child(4),
+div.grid>div:nth-child(1)>div:nth-child(4),
+div.grid>div:nth-child(2)>div:nth-child(5),
+div.grid>div:nth-child(3)>div:nth-child(6),
+div.grid>div:nth-child(4)>div:nth-child(6) {
+    border-right: 1px solid black;
+}
+
+div.grid>div:nth-child(2)>div:nth-child(2),
+div.grid>div:nth-child(3)>div:nth-child(1),
+div.grid>div:nth-child(1)>div:nth-child(3),
+div.grid>div:nth-child(1)>div:nth-child(4),
+div.grid>div:nth-child(2)>div:nth-child(5),
+div.grid>div:nth-child(3)>div:nth-child(6) {
+    border-top: 1px solid black;
+}
+
+div.grid>div:nth-child(4)>div:nth-child(1),
+div.grid>div:nth-child(5)>div:nth-child(2),
+div.grid>div:nth-child(6)>div:nth-child(3),
+div.grid>div:nth-child(6)>div:nth-child(4),
+div.grid>div:nth-child(5)>div:nth-child(5),
+div.grid>div:nth-child(4)>div:nth-child(6) {
+    border-bottom: 1px solid black;
+}
